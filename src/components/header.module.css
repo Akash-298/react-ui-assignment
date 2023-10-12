@@ -1,0 +1,45 @@
+.akarIconscoin {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div {
+  position: relative;
+  line-height: 1.13rem;
+  font-weight: 600;
+}
+.akarIconscoinParent,
+.buttonParent {
+  position: absolute;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.07);
+  box-sizing: border-box;
+}
+.akarIconscoinParent {
+  top: 1.38rem;
+  left: 59.75rem;
+  border-radius: var(--br-mini);
+  background-color: var(--retink-colour-style-retink-primary-purple-light);
+  width: 4.88rem;
+  height: 2.44rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-2xs) var(--padding-7xs)
+    var(--padding-smi);
+  gap: var(--gap-4xs);
+}
+.buttonParent {
+  top: 0;
+  left: 6.38rem;
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-100);
+  width: 65.44rem;
+  height: 5.13rem;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--retink-colour-style-retink-grey-retink-grey051);
+  font-family: var(--heading4);
+}

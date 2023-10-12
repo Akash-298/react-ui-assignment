@@ -1,0 +1,113 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gray-100);
+  backdrop-filter: blur(376px);
+  width: 86rem;
+  height: 18.13rem;
+  display: none;
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 31.94rem;
+  width: 54.33rem;
+  height: 29.44rem;
+}
+.youShouldHave {
+  flex: 1;
+  position: relative;
+  line-height: 1rem;
+  font-weight: 500;
+}
+.youShouldHaveMoreEngagemenWrapper {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.tryOurSeo {
+  position: relative;
+  line-height: 1rem;
+  font-weight: 500;
+}
+.frameParent {
+  position: absolute;
+  top: 6.38rem;
+  left: 44.56rem;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-200);
+  backdrop-filter: blur(20px);
+  width: 39.81rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.shadow1 {
+  border-radius: var(--br-7xs);
+  background: radial-gradient(50% 50%at 50% 50%, #fff 29.48%, #d4c8f8);
+  box-shadow: var(--dropshadow-1);
+}
+.dropshadow1,
+.shadow1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icons16pxarrowGlyphDown {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  overflow: hidden;
+}
+.selected {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 1rem;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  width: 6.69rem;
+}
+.dropdowndefaultselected {
+  position: absolute;
+  height: 13.1%;
+  width: 10.61%;
+  top: 10.34%;
+  right: 3.63%;
+  bottom: 76.55%;
+  left: 85.76%;
+  font-size: var(--heading4-size);
+  color: var(--retink-colour-style-retink-grey-retink-dark-grey);
+}
+.rectangleParent {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: radial-gradient(50% 50%at 50% 50%, #fff 39.72%, #dcd1ff);
+  border: 1px solid var(--retink-colour-style-retink-primary-purple-light-hover);
+  box-sizing: border-box;
+  width: 86rem;
+  height: 18.13rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading3-size);
+  color: var(--retink-colour-style-retink-grey-retink-grey051);
+  font-family: var(--heading4);
+}

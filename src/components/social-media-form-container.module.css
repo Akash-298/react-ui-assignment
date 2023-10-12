@@ -1,0 +1,24 @@
+.forYouBoard,
+.forYouBoardChild {
+  position: absolute;
+  border-radius: var(--br-xl);
+}
+.forYouBoardChild {
+  top: 0;
+  left: 0.5rem;
+  background-color: var(--retink-colour-style-retink-grey-retink-grey0);
+  box-shadow: var(--ui-cards-hover);
+  width: 86rem;
+  height: 45.56rem;
+}
+.forYouBoard {
+  top: 25.75rem;
+  left: -0.5rem;
+  width: 87.56rem;
+  height: 30.81rem;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--retink-colour-style-retink-grey-retink-grey051);
+  font-family: var(--heading4);
+}

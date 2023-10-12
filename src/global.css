@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --heading4: Raleway;
+  --display1: Roboto;
+
+  /* font sizes */
+  --heading4-size: 0.88rem;
+  --font-size-mini: 0.94rem;
+  --font-size-smi: 0.81rem;
+  --heading3-size: 1rem;
+  --font-size-lg: 1.13rem;
+  --heading2-size: 1.5rem;
+  --font-size-xl: 1.25rem;
+  --display1-size: 3rem;
+
+  /* Colors */
+  --retink-colour-style-retink-grey-retink-grey05: #4d4959;
+  --retink-colour-style-retink-primary-purple-light: #f1edfd;
+  --retink-colour-style-retink-primary-purple-light-hover: #eae4fc;
+  --retink-colour-style-retink-primary-purple-normal-active: #5e3eba;
+  --color-red: #ea0022;
+  --retink-colour-style-retink-grey-retink-grey051: #463d61;
+  --white: #fff;
+  --retink-colour-style-retink-grey-retink-grey0: #f4f3f6;
+  --color-whitesmoke-100: #ebeaef;
+  --retink-colour-style-retink-primary-purple-normal: #754de8;
+  --retink-colour-style-retink-grey-retink-dark-grey: #1d1437;
+  --color-gray-100: rgba(255, 255, 255, 0);
+  --color-gray-200: rgba(255, 255, 255, 0.1);
+  --retink-colour-style-retink-primary-purple-light-active: #d4c8f8;
+  --retink-colour-style-retink-blue-grey-blue-700: #77737f;
+
+  /* Gaps */
+  --gap-xs: 0.75rem;
+  --gap-3xs: 0.63rem;
+  --gap-39xl: 3.63rem;
+  --gap-21xl: 2.5rem;
+  --gap-4xs: 0.56rem;
+  --gap-xl: 1.25rem;
+  --gap-lg: 1.13rem;
+  --gap-13xl: 2rem;
+  --gap-226xl: 15.31rem;
+  --gap-216xl: 14.69rem;
+  --gap-sm: 0.88rem;
+
+  /* Paddings */
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-2xs: 0.69rem;
+  --padding-29xl: 3rem;
+  --padding-smi: 0.81rem;
+  --padding-lg: 1.13rem;
+  --padding-12xs: 0.06rem;
+  --padding-6xs: 0.44rem;
+  --padding-3xs: 0.63rem;
+  --padding-7xs: 0.38rem;
+  --padding-sm: 0.88rem;
+  --padding-xl: 1.25rem;
+  --padding-11xl: 1.88rem;
+  --padding-3xl: 1.38rem;
+  --padding-30xl: 3.06rem;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-10xs: 3px;
+  --br-12xs-5: 0.5px;
+  --br-7xs: 6px;
+  --br-lg: 18px;
+  --br-xl: 20px;
+  --br-xs: 12px;
+  --br-mini: 15px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --dropshadow-1: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  --topright-nav-hover: 0px -1px 0px rgba(213, 209, 224, 0.4) inset;
+  --ui-cards-hover: 0px 7px 20px rgba(53, 35, 104, 0.1);
+}

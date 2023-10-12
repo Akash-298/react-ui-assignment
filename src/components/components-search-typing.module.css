@@ -1,0 +1,72 @@
+.shadow1 {
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  box-shadow: var(--dropshadow-1);
+  border: 1px solid var(--color-whitesmoke-100);
+  box-sizing: border-box;
+}
+.dropshadow1,
+.shadow1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.icons24pxsearch {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 0;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.cursor,
+.enterACity {
+  position: absolute;
+  top: calc(50% - 10px);
+}
+.enterACity {
+  left: 32px;
+  line-height: 20px;
+}
+.cursor {
+  left: 87px;
+  background-color: var(--retink-colour-style-retink-grey-retink-grey051);
+  width: 1px;
+  height: 20px;
+  display: none;
+}
+.textIcon {
+  position: absolute;
+  top: calc(50% - 11px);
+  left: 18px;
+  width: 134px;
+  height: 24px;
+}
+.icons16pxremoveRound {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 12px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.filterSvgrepoCom1Icon {
+  position: absolute;
+  top: 13px;
+  left: 491px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.componentssearchtyping {
+  width: 555px;
+  height: 48px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--retink-colour-style-retink-grey-retink-grey051);
+  font-family: var(--heading4);
+}

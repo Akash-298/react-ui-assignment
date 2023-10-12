@@ -1,0 +1,30 @@
+.text {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.property1sProperty2primaInner,
+.textWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.property1sProperty2primaInner {
+  border-radius: var(--br-lg);
+  background-color: var(--retink-colour-style-retink-primary-purple-normal);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xs) var(--padding-29xl);
+}
+.property1sProperty2prima {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--white);
+  font-family: var(--heading4);
+}
